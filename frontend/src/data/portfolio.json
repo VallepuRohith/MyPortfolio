@@ -1,0 +1,84 @@
+{
+  "skills": {
+    "technical": [
+      { "name": "React.js", "level": 90, "category": "Frontend" },
+      { "name": "Node.js", "level": 85, "category": "Backend" },
+      { "name": "Express.js", "level": 85, "category": "Backend" },
+      { "name": "MongoDB", "level": 80, "category": "Database" },
+      { "name": "TypeScript", "level": 85, "category": "Language" },
+      { "name": "Python", "level": 90, "category": "Language" },
+      { "name": "JavaScript", "level": 90, "category": "Language" },
+      { "name": "TailwindCSS", "level": 85, "category": "Styling" },
+      { "name": "Git & GitHub", "level": 85, "category": "Tools" }
+    ],
+    "fundamentals": [
+      { "name": "Data Structures & Algorithms", "level": 90 },
+      { "name": "Object-Oriented Programming", "level": 85 },
+      { "name": "Software Engineering Principles", "level": 85 }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Algorithm Visualizer",
+      "description": "Interactive web application that visualizes popular sorting and searching algorithms in real-time. Built with React, TypeScript, and TailwindCSS for an engaging learning experience.",
+      "technologies": ["React", "TypeScript", "TailwindCSS", "Framer Motion"],
+      "features": [
+        "Real-time algorithm visualization",
+        "Multiple sorting algorithms (Bubble, Merge, Quick, Heap)",
+        "Interactive controls for speed and array size",
+        "Responsive design with smooth animations",
+        "Educational tooltips and explanations"
+      ],
+      "githubUrl": "https://github.com/vallepu-rohith/algorithm-visualizer",
+      "liveUrl": "https://algorithm-visualizer-rohith.vercel.app",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
+      "status": "OnGoing"
+    },
+    {
+      "id": 2,
+      "title": "DSA Resume Tracker",
+      "description": "Full-stack application to track Data Structures and Algorithms practice progress. Features user authentication, progress analytics, and personalized recommendations.",
+      "technologies": [
+        "MERN Stack",
+        "JWT Authentication",
+        "Chart.js",
+        "Material-UI"
+      ],
+      "features": [
+        "User authentication and profiles",
+        "Problem tracking with categories",
+        "Progress analytics and charts",
+        "Daily practice reminders",
+        "Personalized problem recommendations"
+      ],
+      "githubUrl": "https://github.com/vallepu-rohith/dsa-tracker",
+      "liveUrl": "https://dsa-tracker-rohith.herokuapp.com",
+      "imageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop",
+      "status": "OnGoing"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "270+ LeetCode Problems Solved",
+      "description": "Consistently solved coding problems across all difficulty levels",
+      "icon": "code",
+      "highlight": true
+    },
+    {
+      "title": "Top 15% in College Programming Contest",
+      "description": "Ranked among top performers in annual coding competition",
+      "icon": "trophy"
+    },
+    {
+      "title": "Open Source Contributor",
+      "description": "Active contributor to various open-source projects on GitHub",
+      "icon": "git-branch"
+    },
+    {
+      "title": "Full-Stack Project Portfolio",
+      "description": "Built and deployed multiple end-to-end web applications",
+      "icon": "globe"
+    }
+  ]
+}
