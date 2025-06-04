@@ -30,8 +30,8 @@
         "Responsive design with smooth animations",
         "Educational tooltips and explanations"
       ],
-      "githubUrl": "https://github.com/vallepu-rohith/algorithm-visualizer",
-      "liveUrl": "https://algorithm-visualizer-rohith.vercel.app",
+      "githubUrl": "https://github.com/VallepuRohith/AlgorithmVisualizer",
+      "liveUrl": "https://algorithmvisualizer-j5oi.onrender.com/",
       "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
       "status": "OnGoing"
     },
@@ -52,7 +52,7 @@
         "Daily practice reminders",
         "Personalized problem recommendations"
       ],
-      "githubUrl": "https://github.com/vallepu-rohith/dsa-tracker",
+      "githubUrl": "https://github.com/VallepuRohith/DSAResumeTracker",
       "liveUrl": "https://dsa-tracker-rohith.herokuapp.com",
       "imageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop",
       "status": "OnGoing"

@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'rohith.vallepu@gmail.com',
+      value: 'vallepurohith76@gmail.com',
       href: 'mailto:rohith.vallepu@gmail.com',
     },
     {
@@ -58,9 +58,17 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/vallepu-rohith', label: 'GitHub' },
-    { icon: Code2, href: 'https://leetcode.com/vallepu-rohith', label: 'LeetCode' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/vallepu-rohith', label: 'LinkedIn' },
+    { icon: Github, href: "https://github.com/VallepuRohith", label: "GitHub" },
+    {
+      icon: Code2,
+      href: "https://leetcode.com/u/vallepu_Rohith/",
+      label: "LeetCode",
+    },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/vallepu-rohith-649715266/",
+      label: "LinkedIn",
+    },
   ];
 
   return (

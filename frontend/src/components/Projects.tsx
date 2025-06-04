@@ -17,7 +17,8 @@ const Projects = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto rounded-full"></div>
           <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
-            Here are some of my recent projects showcasing my skills in full-stack development and problem-solving.
+            Here are some of my recent projects showcasing my skills in
+            full-stack development and problem-solving.
           </p>
         </div>
 
@@ -44,8 +45,12 @@ const Projects = () => {
 
               {/* Project Content */}
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
-                <p className="text-gray-400 mb-4 leading-relaxed">{project.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">
+                  {project.title}
+                </h3>
+                <p className="text-gray-400 mb-4 leading-relaxed">
+                  {project.description}
+                </p>
 
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -61,14 +66,18 @@ const Projects = () => {
 
                 {/* Key Features */}
                 <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-white mb-2">Key Features:</h4>
+                  <h4 className="text-sm font-semibold text-white mb-2">
+                    Key Features:
+                  </h4>
                   <ul className="text-sm text-gray-400 space-y-1">
-                    {project.features.slice(0, 3).map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start">
-                        <span className="text-blue-400 mr-2">•</span>
-                        {feature}
-                      </li>
-                    ))}
+                    {project.features
+                      .slice(0, 3)
+                      .map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-start">
+                          <span className="text-blue-400 mr-2">•</span>
+                          {feature}
+                        </li>
+                      ))}
                   </ul>
                 </div>
 
@@ -101,7 +110,7 @@ const Projects = () => {
         {/* GitHub Profile Link */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/vallepu-rohith"
+            href="https://github.com/VallepuRohith"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-all duration-300 hover:scale-105"

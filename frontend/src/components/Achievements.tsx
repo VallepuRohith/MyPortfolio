@@ -41,15 +41,15 @@ const Achievements = () => {
             </p>
             <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
               <div className="text-center">
-                <div className="text-2xl font-bold text-green-400">120+</div>
+                <div className="text-2xl font-bold text-green-400">80+</div>
                 <div className="text-sm text-gray-400">Easy</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-yellow-400">100+</div>
+                <div className="text-2xl font-bold text-yellow-400">160+</div>
                 <div className="text-sm text-gray-400">Medium</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-red-400">50+</div>
+                <div className="text-2xl font-bold text-red-400">30+</div>
                 <div className="text-sm text-gray-400">Hard</div>
               </div>
             </div>
