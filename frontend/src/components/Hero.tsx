@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8">
-            Future FAANG Engineer 🚀
+            Future MAANG Engineer 🚀
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">

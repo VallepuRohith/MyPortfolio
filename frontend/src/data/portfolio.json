@@ -5,8 +5,9 @@
       { "name": "Node.js", "level": 85, "category": "Backend" },
       { "name": "Express.js", "level": 85, "category": "Backend" },
       { "name": "MongoDB", "level": 80, "category": "Database" },
-      { "name": "TypeScript", "level": 85, "category": "Language" },
+      { "name": "C", "level": 95, "category": "Language" },
       { "name": "Python", "level": 90, "category": "Language" },
+      { "name": "TypeScript", "level": 85, "category": "Language" },
       { "name": "JavaScript", "level": 90, "category": "Language" },
       { "name": "TailwindCSS", "level": 85, "category": "Styling" },
       { "name": "Git & GitHub", "level": 85, "category": "Tools" }
@@ -53,8 +54,29 @@
         "Personalized problem recommendations"
       ],
       "githubUrl": "https://github.com/VallepuRohith/DSAResumeTracker",
-      "liveUrl": "https://dsa-tracker-rohith.herokuapp.com",
+      "liveUrl": "",
       "imageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=400&fit=crop",
+      "status": "OnGoing"
+    },
+    {
+      "id": 3,
+      "title": "HandWritten Digit Recognition",
+      "description": "A machine learning project that recognizes handwritten digits (0–9) using a Convolutional Neural Network (CNN). Trained on the MNIST dataset, this model classifies images with high accuracy and provides a visual interface to test predictions in real-time. It showcases core concepts in deep learning and computer vision.",
+      "technologies": [
+        "Python",
+        "TensorFlow / Keras",
+        "NumPy, Matplotlib",
+        "Jupyter Notebook / Google Colab"
+      ],
+      "features": [
+        "Trained on MNIST Dataset: 60,000 training images and 10,000 test images of handwritten digits.",
+        "CNN Architecture: Uses convolution, pooling, and dense layers to extract features and classify digits.",
+        "High Accuracy: Achieves >98% accuracy on test data.",
+        "Prediction Interface: Users can upload a digit image or draw one to get instant predictions.",
+        "Visualizations: Includes loss/accuracy curves and confusion matrix for performance insights."],
+      "githubUrl": "https://github.com/VallepuRohith/Handwrittem",
+      "liveUrl": "#",
+      "imageUrl": "https://miro.medium.com/v2/resize:fit:614/1*4nvrTIwmWKmPVSY0cLejZg.png",
       "status": "OnGoing"
     }
   ],
