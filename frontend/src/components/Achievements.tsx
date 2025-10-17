@@ -35,7 +35,7 @@ const Achievements = () => {
             <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
               <Code className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-3xl font-bold text-white mb-4">270+ LeetCode Problems Solved</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">300+ LeetCode Problems Solved</h3>
             <p className="text-lg text-gray-300 mb-6">
               Demonstrating strong problem-solving skills and algorithmic thinking across all difficulty levels
             </p>

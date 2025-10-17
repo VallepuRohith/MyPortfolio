@@ -33,10 +33,6 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-8">
-            Future MAANG Engineer 🚀
-          </p>
-
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
             Computer Science student passionate about building scalable systems
             and solving complex algorithms. Ready to make an impact in the tech
@@ -71,12 +67,14 @@ const Hero = () => {
             >
               View My Work
             </button>
-            <button
-              onClick={() => window.open("src/data/resume.pdf", "_blank")}
+            
+              <button
+              onClick={() => window.open("./resume.pdf", "_blank")}
               className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
             >
               Resume
             </button>
+
             <button
               onClick={() =>
                 document
@@ -85,7 +83,7 @@ const Hero = () => {
               }
               className="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             >
-              contact
+              Get In Touch
             </button>
           </div>
         </div>

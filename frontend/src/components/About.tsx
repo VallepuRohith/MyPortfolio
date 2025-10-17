@@ -11,7 +11,7 @@ const About = () => {
     },
     {
       icon: Code,
-      title: '250+ LeetCode Problems',
+      title: '300+ LeetCode Problems',
       description: 'Strong problem-solving skills and algorithmic thinking'
     },
     {
@@ -42,7 +42,7 @@ const About = () => {
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
               I'm a final-year Computer Science student with a passion for creating innovative solutions 
-              through code. With over 250 LeetCode problems solved, I've developed strong analytical 
+              through code. With over 300 LeetCode problems solved, I've developed strong analytical 
               and problem-solving skills that I apply to real-world development challenges.
             </p>
             
